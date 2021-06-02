@@ -1,4 +1,4 @@
-# atividade-curriculo
+# Gera Curriculo
 Projeto criado como atividade da disciplina de Fundamentos de programação para internet
 
 <h2>Objetivo</h2>
