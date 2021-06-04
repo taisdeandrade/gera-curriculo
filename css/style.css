@@ -48,11 +48,6 @@ input[type = button]:hover, #enviar:hover {
     background-color: rgb(128, 209, 189);
 }
 
-#dados { 
-    justify-content: center;
-    font: 18px sans-serif;
-}
-
 a {
     text-decoration: none;
 }

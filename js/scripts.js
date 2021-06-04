@@ -1,16 +1,12 @@
     //função para clonar a div exp
 	$(document).ready(function(){
 		$("#mais").click(function(){
-			//$(".exp").clone().appendTo(".maisexp");
             var novaDiv = document.querySelector("#exp").cloneNode(true);
             novaDiv.removeAttribute("id");
             document.querySelector(".maisexp").appendChild(novaDiv);
             
 		});
-	});
-
-    //Função para abrir a caixa de impressão
-    $(document).ready(function(){
+        //Função para abrir a caixa de impressão
         $("#imprime").click(function(){
             //Pega o corpo do documento e armazena em pagina
             var pagina = document.body.innerHTML;
@@ -29,7 +25,7 @@
             botaoVoltar.style.visibility = "visible";
 
         });    
-    });
-	
-	
+	});
+
+  
 

@@ -25,7 +25,6 @@
 				<input type="email" name="mail" id="mail" placeholder = "seu_email@email.com" required><br>
 				<label for="telefone" >Telefone: </label><br>
 				<input type="tel" name="telefone" id="telefone" placeholder = "09-12345-1234" pattern="[0-9]{2}-[0-9]{5}-[0-9]{4}"><br>
-				<!--<small>Preencha no formato: 09-90909-0909</small><br>-->
 			</fieldset>
 		</div>
 		<br>
